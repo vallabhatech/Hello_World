@@ -40,17 +40,7 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Column(modifier = Modifier.fillMaxSize()) {
-        Text(text = "Hello CVR", modifier = modifier)
-        Spacer(modifier = Modifier.height(8.dp)) // Add spacing
-        Text(text = "Namashellote", modifier = modifier)
-        Spacer(modifier = Modifier.height(16.dp)) // Add more spacing
-        Button(onClick = {}) {
-            Text(text = "Button")
-        }
-        Spacer(modifier = Modifier.height(8.dp)) // Add spacing
 
-    }
 }
 
 @Preview(showBackground = true)
